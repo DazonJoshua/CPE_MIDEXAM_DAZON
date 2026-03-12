@@ -1,9 +1,9 @@
 ---
 - name: Install httpd,php,mariadb
-  hosts: Ubuntu,CentOS
+  hosts: Ubuntu, CentOS
   become: yes
   roles:
-    - apache
+
     - php
     - mariadb
 
