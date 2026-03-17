@@ -3,7 +3,7 @@
   hosts: Ubuntu, CentOS
   become: yes
   roles:
-
+    - apache
     - php
     - mariadb
 
